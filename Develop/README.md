@@ -6,19 +6,19 @@ This is a project that generates a professional readme file.
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
-* [Tests](tests)
+* [Tests](#tests)
 * [Questions](#questions)
 ## Installation
 To install necessary dependencies, run the following command:  
 npm i
 ## Usage  
-Watch my walkthrough video!!!!!!!!
+Watch my walkthrough video!!!!
 ## License    
-This project is licensed under the GPL 3.0 license.
+This project is licensed under the MIT license.
 ## Contributing  
-Idk do whatever you want with it
+Do whatever you want with it.
 ## Tests  
 To run tests, run the following command:  
 npm test
 ## Questions  
-If you have any questions about the repo, open an issue or contact me directly at karenroh@hotmail.com. You can find more of my work at kroh1031.
+If you have any questions about the repo, open an issue or contact me directly at karenroh@hotmail.com. You can find more of my work at [judeclark19](https://github.com/judeclark19?tab=repositories).
