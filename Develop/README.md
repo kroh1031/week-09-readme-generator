@@ -1,5 +1,5 @@
 # README Generator  
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
 ## Description
 This is a project that generates a professional readme file.
 ## Table of Contents 
@@ -15,7 +15,7 @@ npm i
 ## Usage  
 Watch walkthrough video!!!
 ## License    
-This project is licensed under the APACHE 2.0 license.
+This project is licensed under the GPL 3.0 license.
 ## Contributing  
 Do whatever...
 ## Tests  
