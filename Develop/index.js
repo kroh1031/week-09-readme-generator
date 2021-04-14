@@ -83,17 +83,13 @@ function init() {}
 // Function call to initialize app
 init();
 
-//Order on readme
-//Title
+//Need to do:
 //License badge
-//Description
-//Table of Contents
-//Installation (To install necessary dependencies, run the following command: npm i)
-//Usage
-//License (This project is licensed under the MIT license.)
-//Contributing
-//Tests (To run tests, run the following command: npm test)
-//Questions (If you have any questions about the repo, open an issue or contact me directly at karenroh@hotmail.com. You can find more of my work at kroh1031.)
+// WHEN I choose a license for my application from a list of options
+// THEN a badge for that license is added near the top of the README and a
+// notice is added to the section of the README entitled License that explains
+// which license the application is covered under
+//make ```npm i``` and ```npm test``` work
 
 //Steps to take:
 //1. Prompt user with questions
