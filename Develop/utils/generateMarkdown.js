@@ -32,15 +32,19 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license !== "None") {
+    return `
+  ## License    
+This project is licensed under the ${data.license} license.`;
+  } else {
+    return "";
+  }
+}
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}  
-  ${renderLicenseBadge(data.license)}  
-   
-## Description
-${data.description}
+function renderTableLicense(license) {
+  if (license !== "None") {
+    return `
 ## Table of Contents 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -48,13 +52,32 @@ ${data.description}
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+    `;
+  } else {
+    return `
+## Table of Contents 
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+    `;
+  }
+}
+// TODO: Create a function to generate markdown for README
+function generateMarkdown(data) {
+  return `# ${data.title}  
+  ${renderLicenseBadge(data.license)}  
+   
+## Description
+${data.description}
+${renderTableLicense(data.license)}
 ## Installation
 To install necessary dependencies, run the following command:  
 ${data.installation}
 ## Usage  
 ${data.usage}
-## License    
-This project is licensed under the ${data.license} license.
+${renderLicenseSection(data.license)}
 ${renderLicenseLink(data.license)}
 ## Contributing  
 ${data.contributing}
