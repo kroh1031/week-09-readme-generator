@@ -58,18 +58,9 @@ const questions = [
 inquirer
   .prompt(questions)
   .then((data) => {
-    console.log(data);
-    console.log(data.title);
-    console.log(data.description);
-    console.log(data.installation);
-    console.log(data.usage);
     console.log(data.license);
-    console.log(data.contributing);
-    console.log(data.tests);
-    console.log(data.email);
-    console.log(data.username);
     fs.writeFile("README.md", generateMarkdown(data), (err) =>
-      err ? console.log(err) : console.log("Success!!!")
+      err ? console.log(err) : console.log("Generating README...")
     );
   })
   .catch((err) => console.log(err));

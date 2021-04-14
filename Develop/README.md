@@ -1,4 +1,5 @@
-# README Generator
+# README Generator  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 ## Description
 This is a project that generates a professional readme file.
 ## Table of Contents 
@@ -12,13 +13,13 @@ This is a project that generates a professional readme file.
 To install necessary dependencies, run the following command:  
 npm i
 ## Usage  
-Watch my walkthrough video!!!
+Watch walkthrough video!!!
 ## License    
 This project is licensed under the MIT license.
 ## Contributing  
-Do whatever you want with it.
+Do whatever...
 ## Tests  
 To run tests, run the following command:  
 npm test
 ## Questions  
-If you have any questions about the repo, open an issue or contact me directly at karenroh@hotmail.com. You can find more of my work at [judeclark19](https://github.com/judeclark19).
+If you have any questions about the repo, open an issue or contact me directly at karenroh@hotmail.com. You can find more of my work at [kroh1031](https://github.com/kroh1031).
