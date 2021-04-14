@@ -55,21 +55,23 @@ const questions = [
     name: "contributing",
   },
 ];
-inquirer
-  .prompt(questions)
-  .then((data) => {
-    console.log(data.license);
-    fs.writeFile("README.md", generateMarkdown(data), (err) =>
-      err ? console.log(err) : console.log("Generating README...")
-    );
-  })
-  .catch((err) => console.log(err));
+
 // TODO: Create a function to write README file
 
 // function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer
+    .prompt(questions)
+    .then((data) => {
+      console.log(data.license);
+      fs.writeFile("README.md", generateMarkdown(data), (err) =>
+        err ? console.log(err) : console.log("Generating README...")
+      );
+    })
+    .catch((err) => console.log(err));
+}
 
 // Function call to initialize app
 init();
