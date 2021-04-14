@@ -1,5 +1,5 @@
 # README Generator  
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
+  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  
 ## Description
 This is a project that generates a professional readme file.
 ## Table of Contents 
@@ -15,7 +15,7 @@ npm i
 ## Usage  
 Watch walkthrough video!!!
 ## License    
-This project is licensed under the GPL 3.0 license.
+This project is licensed under the BSD 3 license.
 ## Contributing  
 Do whatever...
 ## Tests  
