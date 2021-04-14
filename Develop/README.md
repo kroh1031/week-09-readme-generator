@@ -1,5 +1,5 @@
 # README Generator  
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
 ## Description
 This is a project that generates a professional readme file.
 ## Table of Contents 
@@ -15,7 +15,7 @@ npm i
 ## Usage  
 Watch walkthrough video!!!
 ## License    
-This project is licensed under the MIT license.
+This project is licensed under the APACHE 2.0 license.
 ## Contributing  
 Do whatever...
 ## Tests  
