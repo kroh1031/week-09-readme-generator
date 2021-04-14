@@ -58,7 +58,11 @@ const questions = [
 
 // TODO: Create a function to write README file
 
-// function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFileSync(fileName, data, (err) =>
+    err ? console.log(err) : console.log("Generating README...")
+  );
+}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -66,9 +70,7 @@ function init() {
     .prompt(questions)
     .then((data) => {
       console.log(data.license);
-      fs.writeFile("README.md", generateMarkdown(data), (err) =>
-        err ? console.log(err) : console.log("Generating README...")
-      );
+      writeToFile("README.md", generateMarkdown(data));
     })
     .catch((err) => console.log(err));
 }

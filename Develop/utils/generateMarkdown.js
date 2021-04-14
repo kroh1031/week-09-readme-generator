@@ -36,7 +36,7 @@ function renderLicenseSection(license) {
   if (license !== "None") {
     return `
   ## License    
-This project is licensed under the ${data.license} license.`;
+This project is licensed under the ${license} license.`;
   } else {
     return "";
   }
@@ -66,6 +66,7 @@ function renderTableLicense(license) {
 }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  console.log(data);
   return `# ${data.title}  
   ${renderLicenseBadge(data.license)}  
    
