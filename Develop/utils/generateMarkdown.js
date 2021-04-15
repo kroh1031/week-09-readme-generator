@@ -35,64 +35,86 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== "None") {
     return `
-  ## License    
+## License    
+
 This project is licensed under the ${license} license.`;
   } else {
     return "";
   }
 }
-
+// Function that returns the license section in the table of contents only if the user provides a valid license...
 function renderTableLicense(license) {
   if (license !== "None") {
     return `
 ## Table of Contents 
+
 * [Installation](#installation)
+
 * [Usage](#usage)
+
 * [License](#license)
+
 * [Contributing](#contributing)
+
 * [Tests](#tests)
+
 * [Questions](#questions)
     `;
   } else {
     return `
 ## Table of Contents 
+
 * [Installation](#installation)
+
 * [Usage](#usage)
+
 * [Contributing](#contributing)
+
 * [Tests](#tests)
+
 * [Questions](#questions)
     `;
   }
 }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log(data);
   return `# ${data.title}  
   ${renderLicenseBadge(data.license)}  
-   
+
 ## Description
+
 ${data.description}
 ${renderTableLicense(data.license)}
 ## Installation
+
 To install necessary dependencies, run the following command:  
 \`\`\`
 ${data.installation}
 \`\`\`
+
 ## Usage  
+
 ${data.usage}
 ${renderLicenseSection(data.license)}
 ${renderLicenseLink(data.license)}
-## Contributing  
+
+## Contributing
+
 ${data.contributing}
-## Tests  
+
+## Tests
+ 
 To run tests, run the following command:  
 \`\`\`
 ${data.tests}
 \`\`\`
+
 ## Questions  
+
 If you have any questions about the repo, open an issue or contact me directly at ${
     data.email
-  }. You can find more of my work at [${data.username}](https://github.com/${
+  }.  
+  You can find more of my work at [${data.username}](https://github.com/${
     data.username
   }).
 `;

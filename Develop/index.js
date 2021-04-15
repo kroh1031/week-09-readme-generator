@@ -59,7 +59,7 @@ const questions = [
 // TODO: Create a function to write README file
 
 function writeToFile(fileName, data) {
-  fs.writeFileSync(fileName, data, (err) =>
+  fs.writeFile(fileName, data, (err) =>
     err ? console.log(err) : console.log("Generating README...")
   );
 }
@@ -69,7 +69,6 @@ function init() {
   inquirer
     .prompt(questions)
     .then((data) => {
-      console.log(data.license);
       writeToFile("README.md", generateMarkdown(data));
     })
     .catch((err) => console.log(err));
@@ -77,14 +76,6 @@ function init() {
 
 // Function call to initialize app
 init();
-
-//Need to do:
-//License badge
-// WHEN I choose a license for my application from a list of options
-// THEN a badge for that license is added near the top of the README and a
-// notice is added to the section of the README entitled License that explains
-// which license the application is covered under
-//make ```npm i``` and ```npm test``` work
 
 //Steps to take:
 //1. Prompt user with questions
