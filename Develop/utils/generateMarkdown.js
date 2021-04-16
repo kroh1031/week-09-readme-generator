@@ -37,12 +37,13 @@ function renderLicenseSection(license) {
     return `
 ## License    
 
-This project is licensed under the ${license} license.`;
+This project is licensed under the ${license} license.  `;
   } else {
     return "";
   }
 }
-// Function that returns the license section in the table of contents only if the user provides a valid license...
+// Function that returns the license section in the Table of Contents only if the user provides a valid license...
+// If there is no license, return the Table of Contents without a license section
 function renderTableLicense(license) {
   if (license !== "None") {
     return `

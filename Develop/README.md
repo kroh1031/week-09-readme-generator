@@ -1,17 +1,15 @@
 # README Generator  
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+    
 
 ## Description
 
-This project produces a professional readme file.
+This is a command-line application that quickly and easily generates a README file.
 
 ## Table of Contents 
 
 * [Installation](#installation)
 
 * [Usage](#usage)
-
-* [License](#license)
 
 * [Contributing](#contributing)
 
@@ -28,16 +26,13 @@ npm i
 
 ## Usage  
 
-Watch walkthrough video~
+Watch my walkthrough video~!!!
 
-## License    
 
-This project is licensed under the MIT license.
-https://opensource.org/licenses/MIT
 
 ## Contributing
 
-Do whatever...
+N/A
 
 ## Tests
  

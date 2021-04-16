@@ -77,7 +77,4 @@ function init() {
 // Function call to initialize app
 init();
 
-//Steps to take:
-//1. Prompt user with questions
-//2. Save data to file
-//3. Generate readme
+
