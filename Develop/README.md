@@ -1,15 +1,17 @@
 # README Generator  
-    
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 ## Description
 
-This is a command-line application that quickly and easily generates a README file.
+This ia a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 
 ## Table of Contents 
 
 * [Installation](#installation)
 
 * [Usage](#usage)
+
+* [License](#license)
 
 * [Contributing](#contributing)
 
@@ -26,9 +28,12 @@ npm i
 
 ## Usage  
 
-Watch my walkthrough video~!!!
+Watch my walkthrough video that demonstrates its functionality!!!
 
+## License    
 
+This project is licensed under the MIT license.  
+https://opensource.org/licenses/MIT
 
 ## Contributing
 
