@@ -34,7 +34,7 @@ Here's the link to my walkthrough video that demonstrates the app's functionalit
 The generated README file from the demo can be found within my repo.
 
 Screenshot of the generated README:  
-![Screenshot of Weather Dashboard](./Develop/images/generated-readme-screenshot.png)
+![Screenshot of Generated README](./Develop/images/generated-readme-screenshot.PNG)
 
 ## License
 
